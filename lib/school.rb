@@ -1,10 +1,11 @@
 # code here!
 class School
   def initialize(name)
-    @school=school
+    @name=name
   end 
-
-
+  def name
+    @name
+  end 
 
 
 
