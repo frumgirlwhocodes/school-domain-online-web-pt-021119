@@ -10,7 +10,7 @@ class School
      @roster[grade]=[] 
      @roster[grade] << name
    else 
-     @roster[grade].push(name)
+     @roster[grade]  << name
   end
 end 
 end 
