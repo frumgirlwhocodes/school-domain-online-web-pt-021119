@@ -12,7 +12,7 @@ class School
  elsif 
    @roster[student_grade] << student_name
  else 
-   
+   @roster
   end 
   end
 end 
