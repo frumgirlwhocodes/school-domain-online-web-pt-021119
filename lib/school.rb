@@ -9,8 +9,10 @@ class School
     if @roster.empty?
     @roster[student_grade]=[]
    @roster[student_grade] << student_name
- else 
+ elsif 
    @roster[student_grade] << student_name
+ else 
+   
   end 
   end
 end 
