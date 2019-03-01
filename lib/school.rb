@@ -7,4 +7,4 @@ class School
     roster={}
   end 
   def add_student(student_name, student_age)
-end 
+    roster[student_name]
