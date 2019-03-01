@@ -1,6 +1,8 @@
 # code here!
 class School
-  def ini
+  def initialize(name)
+    @school=school
+  end 
 
 
 
