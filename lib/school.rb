@@ -17,6 +17,6 @@ def grade(grade_number)
   @roster[grade_number]
 end 
 def sort 
-  @roster[@name].sort
+  @rostdr
 end 
 end 
