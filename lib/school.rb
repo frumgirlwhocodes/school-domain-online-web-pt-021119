@@ -6,7 +6,7 @@ class School
     @roster={}
   end
   def add_student(name, grade)
-   if @roster
-
+   if @roster.empty?
+     @roster
   end
 end 
