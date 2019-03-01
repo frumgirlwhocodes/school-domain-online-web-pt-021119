@@ -17,7 +17,7 @@ def grade(grade_number)
   @roster[grade_number]
 end 
 def sort 
-  @roster.sort_by { |key, value| va}
+  @roster.sort_by { |key, value| value <=> key}
 end 
 @roster
 end 
