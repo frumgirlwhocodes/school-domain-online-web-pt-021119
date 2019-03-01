@@ -19,4 +19,5 @@ end
 def sort 
   @roster.sort_by { |key, value| value}
 end 
+@roster
 end 
